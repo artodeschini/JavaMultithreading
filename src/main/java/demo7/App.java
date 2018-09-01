@@ -4,6 +4,13 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * This example shows how to control the number of threads to execute simultaneously
+ *
+ * Use ExecutorServe and fixe a number of Thread
+ *
+ * note: the method shutdown of ExecutorService makes all Runnable are performed ( <-- execute)
+ */
 class Processor implements Runnable {
 
     private int id;

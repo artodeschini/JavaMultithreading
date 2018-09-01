@@ -1,5 +1,8 @@
 package demo1;
 
+/**
+ * This sample show how to create and execute Thread instance when I extends java.lang.Thread
+ */
 class Runner extends Thread {
 
 	@Override

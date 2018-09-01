@@ -1,5 +1,9 @@
 package demo2;
 
+/**
+ *  This samples show how to create a class to implements java.lang.Runnable
+ *  and instance Thread and start them
+ */
 class Runner implements Runnable {
 
 	@Override

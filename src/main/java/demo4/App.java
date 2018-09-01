@@ -2,6 +2,12 @@ package demo4;
 
 import java.util.Scanner;
 
+/**
+ * this sample show how to use the reserved word 'volatile in java
+ *
+ * note: volatile Indicates that the variable may not be synchronized because it is used in fragments.
+ *
+ */
 class Processor extends Thread {
 	
 	private volatile boolean running = true;

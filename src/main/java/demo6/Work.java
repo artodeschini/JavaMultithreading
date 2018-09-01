@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * this sample show how to use this sample show how to use the reserved word 'synchronized' in code block
+ *
+ * note: I use a Object to lock de execute, this improve the speed to execute
+ *
+ */
 public class Work {
 	
 	Random random = new Random();

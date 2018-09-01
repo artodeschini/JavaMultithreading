@@ -1,5 +1,9 @@
 package demo5;
 
+/**
+ * this sample show how to use reserved word 'synchronized' for signature methods
+ * when I use this one Thread enter in the method to execute
+ */
 public class App {
 	
 	private volatile int count = 0;
