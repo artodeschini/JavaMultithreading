@@ -67,7 +67,8 @@ public class MainFrame extends JFrame {
 
             @Override
             protected void done() {
-                System.out.println("done");
+                //System.out.println("done");
+                statusLabel.setText("Complete");
             }
         };
 
