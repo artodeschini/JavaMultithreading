@@ -55,14 +55,19 @@ public class MainFrame extends JFrame {
 
     public void start() {
         //System.out.println("Start");
-        SwingWorker<Void, Void> worker = new SwingWorker<Void, Void>() {
+        SwingWorker<Boolean, Void> worker = new SwingWorker<Boolean, Void>() {
             @Override
-            protected Void doInBackground() throws Exception {
+            protected Boolean doInBackground() throws Exception {
                 for (int i = 0 ; i < 30 ; i ++) {
                     Thread.sleep( 100 );
                     System.out.println("Hello: " + i);
                 }
-                return null;
+                return true;
+            }
+
+            @Override
+            protected void done() {
+                System.out.println("done");
             }
         };
 
